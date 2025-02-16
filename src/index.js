@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from "../src/redux/Store/Store";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//provider is used to connect react and redux
 root.render(
   <Provider store={store}> 
       <App />
